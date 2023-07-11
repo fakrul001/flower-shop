@@ -13,7 +13,7 @@
     border-radius: 5px;
 }
 
-/* banner style start */
+/* banner style starts */
 .banner-container{
     height: 100vh;
     padding-top: 15px;
@@ -47,9 +47,9 @@
     height: 656px;
     margin-right: 50px; 
 }
-/* banner style end */
+/* banner style ends */
 
-/* Featured Flower style start */
+/* Featured Flower style starts */
 .featured-flower-container{
     width: 1180px;
     margin: auto;
@@ -102,6 +102,10 @@
     margin-right: 20px;
 }
 
+.third-item{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
 .flowers-name{
     display: flex;
     justify-content: space-around;
@@ -111,9 +115,9 @@
     font-size: 18px;
     font-weight: 700;
 }
-/* Featured Flower style end */
+/* Featured Flower style ends */
 
-/* Rare Collection style start */
+/* Rare Collection style starts */
 .rare-flower-container{
     margin-top: 80px;
     padding-top: 50px;
@@ -171,9 +175,9 @@
     bottom: 0;
     left: 20px;
 }
-/* Rare Collection style end */
+/* Rare Collection style ends */
 
-/* Service style start */
+/* Service style starts */
 .service-container{
     width: 1080px;
     margin: auto;
@@ -186,9 +190,9 @@
     align-items: center;
     font-weight: 700;
 }
-/* Service style end */
+/* Service style ends */
 
-/* Hot Deal style start */
+/* Hot Deal style starts */
 .deal-container{
     background-color: rgba(229, 84, 115, 0.05);
     margin-top: 80px;
@@ -225,9 +229,9 @@
     margin-bottom: 20px;
     color: rgba(39, 39, 39, 0.60);
 }
-/* Hot Deal style end */
+/* Hot Deal style ends */
 
-/* Instagram Media style start */
+/* Instagram Media style starts */
 .media-container{
     width: 1100px;
     margin: auto;
@@ -261,9 +265,9 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-/* Instagram Media style end */
+/* Instagram Media style ends */
 
-/* Get Latest Deals style start */
+/* Get Latest Deals style starts */
 .latest-deals-container{
     width: 1080px;
     margin: auto;
@@ -298,6 +302,33 @@
     border-radius: 5px;
     margin-right: 10px;
 }
-/* Get Latest Deals style end */
+/* Get Latest Deals style ends */
 
-/*  */
+/* footer style starts */
+.Shop-info-container{
+    margin-top: 80px;
+    text-align: center;
+    padding: 80px;
+    background-image: url('../Flower Asset/background.png'), linear-gradient(45deg, rgba(167, 33, 98, 0.349), rgba(5, 152, 160, 0.253), rgba(161, 132, 39, 0.336));
+}
+
+.shop-title{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(10, 97, 102, 0.493);
+}
+
+.shop-title > span{
+    color: #E55473;
+}
+
+.shop-description{
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.copyright{
+    color: rgba(10, 97, 102, 0.616);
+}
+/* footer style ends */
