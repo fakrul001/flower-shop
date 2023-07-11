@@ -13,6 +13,10 @@
     border-radius: 5px;
 }
 
+.btn:hover{
+    background-color: rgba(12, 114, 119, 0.555);
+}
+
 /* banner style starts */
 .banner-container{
     height: 100vh;
