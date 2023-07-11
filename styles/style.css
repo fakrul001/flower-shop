@@ -24,7 +24,8 @@
 }
 
 .banner-content{
-    width: 500px;    
+    width: 500px;
+    margin-left: 50px;    
 }
 
 .banner-title{
@@ -42,9 +43,71 @@
 }
 
 .banner-img{
-    width: 500px;
-    height: 635px;
+    width: 520px;
+    height: 656px;
+    margin-right: 50px; 
 }
 /* banner style end */
 
+/* Featured Flower style start */
+.featured-flower-container{
+    width: 1180px;
+    margin: auto;
+    padding-top: 50px;
+}
 
+.featured-flower-content{
+    text-align: center;
+}
+
+.featured-flower-title{
+    font-size: 30px;
+    font-weight: 900;
+    color: #272727;
+}
+
+.featured-flower-text{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.featured-flower-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-item, .second-item, .third-item{
+    width: 350px;
+    height: 400px;
+    border-radius: 180px 180px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    position: relative;
+}
+
+.first-item-img, .second-item-img, .third-item-img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.second-item{
+    background-color: rgba(5, 151, 160, 0.15);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flowers-name{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    margin-top: 20px;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+}
