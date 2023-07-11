@@ -113,6 +113,68 @@
 }
 /* Featured Flower style end */
 
+/* Exclusive Collection style start */
+.rare-flower-container{
+    width: 1080px;
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('../Flower Asset/background.png'), linear-gradient(45deg, rgba(161, 133, 39, 0.432), rgba(236, 234, 234, 0.26), rgba(161, 133, 39, 0.432));
+}
+
+.rare-flower-title{
+    font-size: 30px;
+    font-weight: 900;
+    color: #272727;
+    text-align: center;
+}
+
+.rare-flower-content{
+    width: 600px;
+    text-align: start
+}
+
+.rare-flower-name{
+    font-size: 50px;
+    font-weight: 900;
+    color: #272727;
+}
+
+.rare-flower-name > span{
+    color: #E55473
+}
+
+.rare-flower-description{
+    color: rgba(39, 39, 39, 0.60);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rare-flower-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.rare-flower{
+    width: 280px;
+    height: 320px;
+    border-radius: 100px 0px 100px ;
+    background-color: rgba(84, 138, 23, 0.322);
+    position: relative;
+}
+
+.rare-flower-img{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+/* Exclusive Collection style end */
+
 /* Service style start */
 .service-container{
     width: 1080px;
@@ -126,3 +188,4 @@
     align-items: center;
     font-weight: 700;
 }
+/* Service style end */
