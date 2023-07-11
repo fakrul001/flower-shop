@@ -164,7 +164,8 @@
     width: 280px;
     height: 320px;
     border-radius: 100px 0px 100px ;
-    background-color: rgba(84, 138, 23, 0.233);
+    background-color: rgba(84, 138, 23, 0.205);
+    box-shadow: 10px 15px 10px rgba(161, 132, 39, 0.336);
     position: relative;
 }
 
