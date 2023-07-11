@@ -113,10 +113,8 @@
 }
 /* Featured Flower style end */
 
-/* Exclusive Collection style start */
+/* Rare Collection style start */
 .rare-flower-container{
-    width: 1080px;
-    margin: auto;
     margin-top: 80px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -162,7 +160,7 @@
     width: 280px;
     height: 320px;
     border-radius: 100px 0px 100px ;
-    background-color: rgba(84, 138, 23, 0.322);
+    background-color: rgba(84, 138, 23, 0.233);
     position: relative;
 }
 
@@ -173,7 +171,7 @@
     bottom: 0;
     left: 20px;
 }
-/* Exclusive Collection style end */
+/* Rare Collection style end */
 
 /* Service style start */
 .service-container{
@@ -189,3 +187,44 @@
     font-weight: 700;
 }
 /* Service style end */
+
+/* Hot Deal style start */
+.deal-container{
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.deal-content{
+    width: 600px;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.deal-title{
+    font-size: 30px;
+    font-weight: 900;
+    color: #272727;
+}
+
+.deal-title > span{
+    color: #E55473;
+}
+
+.deal-img{
+    width: 300px;
+    height: 350px;
+}
+
+.deal-description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(39, 39, 39, 0.60);
+}
+/* Hot Deal style end */
+
+/*  */
